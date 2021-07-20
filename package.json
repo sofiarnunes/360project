@@ -1,0 +1,23 @@
+{
+  "name": "360project",
+  "version": "1.0.0",
+  "description": "The briefing for this project was given by the brand Halls PT. The aim was to try to get younger people, more specifically millennials, to buy Halls. They wanted to get away from the health functionality and bring up the **energy** and **fire** to the brand image.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o style/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiarnunes/360project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofiarnunes/360project/issues"
+  },
+  "homepage": "https://github.com/sofiarnunes/360project#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
