@@ -1,0 +1,11 @@
+footer{
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    p{
+        color: white;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
