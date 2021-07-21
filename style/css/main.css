@@ -81,9 +81,11 @@ section {
       font-size: 40px; }
   .premios .wrapper .flex-container {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    flex-wrap: wrap; }
     .premios .wrapper .flex-container img {
-      width: 250px; }
+      width: 250px;
+      margin-top: 20px; }
 
 .regras {
   text-align: center;
