@@ -127,10 +127,80 @@ header nav {
       font-size: 30px;
       font-weight: 700; }
 
+.about {
+  text-align: center;
+  width: 100%;
+  background-image: url(/img/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2869px; }
+  .about .wrapper {
+    max-width: 1280px; }
+    .about .wrapper h2 {
+      font-size: 110px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 22px;
+      line-height: 132px;
+      padding-top: 253px; }
+    .about .wrapper p {
+      font-size: 20px;
+      color: #ffffff;
+      margin-bottom: 100px;
+      width: 973px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      line-height: 27.24px; }
+    .about .wrapper .flex-container {
+      margin-top: 180px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap; }
+      .about .wrapper .flex-container .shape {
+        height: 450px;
+        width: 450px;
+        min-width: 450px;
+        overflow: hidden;
+        transform: rotate(45deg);
+        position: relative;
+        border-radius: 30px; }
+        .about .wrapper .flex-container .shape img {
+          transform: rotate(-45deg);
+          height: 1050px;
+          position: absolute;
+          bottom: -250px;
+          right: -30px; }
+      .about .wrapper .flex-container .info {
+        max-width: 430px; }
+        .about .wrapper .flex-container .info h3 {
+          font-size: 80px;
+          margin-bottom: 22px;
+          color: #ffffff;
+          line-height: 96px; }
+        .about .wrapper .flex-container .info p {
+          width: 426px;
+          font-size: 25px;
+          line-height: 30px; }
+      .about .wrapper .flex-container.frst {
+        margin-top: 200px; }
+    .about .wrapper .btn-default {
+      padding: 20px 100px;
+      background-color: red;
+      font-size: 25px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      color: white;
+      border-radius: 20px;
+      background-color: #555555; }
+
 footer {
   height: 50px;
   background-color: black;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  bottom: -22px; }
   footer p {
     color: white;
     position: relative;
