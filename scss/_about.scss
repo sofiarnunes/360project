@@ -1,0 +1,80 @@
+.about{
+    text-align: center;
+    width: 100%;
+    background-image: url('https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/bg-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2869px;
+    .wrapper{
+        max-width: 1280px;
+        h2{
+            font-size: 110px;
+            font-weight: 700;
+            color: $white;
+            margin-bottom: 22px;
+            line-height: 132px;
+            padding-top: 253px;
+        }
+        p{
+            font-size: 20px;
+            color: $white;
+            margin-bottom: 100px;
+            width: 973px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            line-height: 
+            27.24px;
+        }
+        .flex-container{
+            margin-top: 180px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            .shape{
+                height: 450px;
+                width: 450px;
+                min-width: 450px;
+                overflow: hidden;
+                transform: rotate(45deg);
+                position: relative;
+                border-radius: 30px;
+                img{
+                    transform: rotate(-45deg);
+                    height: 1050px;
+                    position: absolute;
+                    bottom: -250px;
+                    right:-30px;
+                }
+            }
+            .info{
+                max-width: 430px;
+                h3{
+                    font-size: 80px;
+                    margin-bottom: 22px;
+                    color: $white;
+                    line-height: 96px;
+                }
+                p{
+                    width: 426px;
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+            }
+            &.frst{
+                margin-top: 200px;
+            }
+        }
+        .btn-default{
+            padding: 20px 100px;
+            background-color: red;
+            font-size: 25px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            color: white;
+            border-radius: 20px;
+            background-color: #555555;
+        }
+    }
+}
