@@ -70,14 +70,13 @@
             }
         }
         .btn-default{
-            padding: 20px 100px;
-            background-color: red;
-            font-size: 25px;
-            font-weight: 600;
+            padding: 25px 135px;
+            display: inline-block;
+            font-size: 30px;
             letter-spacing: 3px;
-            color: white;
-            border-radius: 20px;
-            background-color: #555555;
+            color: $dark-blue;
+            background-color: $white;border-radius: 30px;
+            margin-top: 220px;
         }
     }
 }
