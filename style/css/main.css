@@ -185,6 +185,8 @@ header nav {
           line-height: 30px; }
       .about .wrapper .flex-container.frst {
         margin-top: 200px; }
+      .about .wrapper .flex-container.rev {
+        flex-direction: row-reverse; }
     .about .wrapper .btn-default {
       padding: 20px 100px;
       background-color: red;

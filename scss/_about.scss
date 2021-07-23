@@ -65,6 +65,9 @@
             &.frst{
                 margin-top: 200px;
             }
+            &.rev{
+                flex-direction: row-reverse;
+            }
         }
         .btn-default{
             padding: 20px 100px;
