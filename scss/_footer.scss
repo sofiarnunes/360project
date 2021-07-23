@@ -4,8 +4,17 @@ footer{
     color: $white;
     position: relative;
     bottom: 100px;
+    text-align: left;
+    @include mq(0,512px){
+        height: 200px;
+        width: 100%;
+    }
     .flex-container{
-        height: 100%;
+        @include mq(0,512px){
+            max-width: 340px !important;
+            justify-content: flex-start;
+
+        }        
         div{
             ul{
                 margin-bottom: 35px;
