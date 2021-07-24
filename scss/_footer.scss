@@ -1,13 +1,27 @@
 footer{
-    height: 50px;
-    background-color: black;
-    text-align: center;
+    height: 167px;
+    background-color: $medium-blue;
+    color: $white;
     position: relative;
-    bottom: -22px;
-    p{
-        color: white;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
+    bottom: 100px;
+    text-align: left;
+    @include mq(0,512px){
+        height: 200px;
+        width: 100%;
+    }
+    .flex-container{
+        @include mq(0,512px){
+            max-width: 340px !important;
+            justify-content: flex-start;
+
+        }        
+        div{
+            ul{
+                margin-bottom: 35px;
+                li{
+                    margin-bottom: 10px;
+                }
+            }
+        }
     }
 }

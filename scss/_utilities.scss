@@ -13,3 +13,9 @@ section {
     margin:0 auto;
     height: 100%;
 }
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
