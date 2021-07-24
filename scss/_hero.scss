@@ -1,8 +1,9 @@
 .hero {
     background-image: linear-gradient(rgba(29, 28, 81, 0.7), rgba(29, 28, 81, 0.7)),
-        url("https://github.com/sofiarnunes/Halls-360Project/blob/main/img/background_Crava_%C3%A0_Halls.png?raw=true");
+        url("https://github.com/sofiarnunes/Halls-360Project/blob/main/img/Background_update.png?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     .wrapper {
         height: 100vh;
         display: flex;
@@ -10,65 +11,76 @@
         flex-direction: column;
         justify-content: center;
         margin: 0 auto;
-        h3 {
-            font-size: 30px;
-            font-weight: 700;
-            color: white;
-            margin-bottom: 30px;
-            margin-top: 90px;
-        }
-        .rules-01 {
+        div.rules {
             display: flex;
             flex-direction: row;
             align-items: center;
-            height: 110px;
-            color: white;
-            .square {
-                height: 60px;
-                width: 60px;
-                background-color: $light-blue;
-                transform: rotate(45deg);
-                border-radius: 10px;
-                display: block;
-            }
-            .number {
-                font-size: 100px;
-                font-weight: 700;
-                position: absolute;
-                text-align: center;
-                transform: translateY(-20%) rotate(-45deg);
-                margin: auto auto;
-            }
-            p {
-                width: 618px;
-                margin: 25px;
-                font-size: 20px;
-                font-weight: 600;
+            justify-content: center;
+            margin-top: 20%;
+            .rules-01 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                margin: 30px;
+                flex: 1;
+                .square {
+                    height: 45px;
+                    width: 45px;
+                    background-color: $light-blue;
+                    transform: rotate(45deg);
+                    border-radius: 10px;
+                    .number {
+                        position: absolute;
+                        height: 45px;
+                        width: 45px;
+                        transform: translate(-50%, -50%);
+                        transform: rotate(-45deg);
+                        h1 {
+                            font-size: 26px;
+                            font-weight: 700;
+                            text-align:center;
+                            line-height:45px;
+                            margin:0;
+                        }
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin: 30px;
+                    text-align:center;
+                }
             }
         }
     }
     form {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         label {
-            margin: 50px;
-            display: block;
-            font-size: 22px;
-            font-weight: 600;
+            font-size: 25px;
+            font-weight: 400;
             color: white;
+            margin: 27px;
         }
         input {
-            height: 95px;
-            border-radius: 10px;
-            margin-right: 5px;
-            font-size: 60px;
-            font-weight:400;
+            height: 54px;
+            width: 174px;
+            border-radius: 15px;
+            margin: 15px;
         }
         input#code {
-            width: 490px;
             text-align: center;
+            font-size: 25px;
+            weight: 400;
         }
         input.btn {
-            width: 110px;
+            color: white;
+            background: #ab2a4e;
+            font-size: 16px;
         }
     }
 }
