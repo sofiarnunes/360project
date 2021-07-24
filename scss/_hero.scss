@@ -1,21 +1,74 @@
-.hero{
-    .wrapper{
-        form{
-            height:100vh;
-            display:flex;
-            align-items:center;
-            justify-content:center;
-            flex-direction:column;
-            label{
-                font-size:30px;
-                font-weight:600;
-                margin:6px;
-                height:25px;
+.hero {
+    background-image: linear-gradient(rgba(29, 28, 81, 0.7), rgba(29, 28, 81, 0.7)),
+        url("https://github.com/sofiarnunes/Halls-360Project/blob/main/img/background_Crava_%C3%A0_Halls.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .wrapper {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        h3 {
+            font-size: 30px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 30px;
+            margin-top: 90px;
+        }
+        .rules-01 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 110px;
+            color: white;
+            .square {
+                height: 60px;
+                width: 60px;
+                background-color: $light-blue;
+                transform: rotate(45deg);
+                border-radius: 10px;
+                display: block;
             }
-            input{
-                margin:10px;
-                height:25px;
+            .number {
+                font-size: 100px;
+                font-weight: 700;
+                position: absolute;
+                text-align: center;
+                transform: translateY(-20%) rotate(-45deg);
+                margin: auto auto;
             }
+            p {
+                width: 618px;
+                margin: 25px;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+    form {
+        text-align: center;
+        label {
+            margin: 50px;
+            display: block;
+            font-size: 22px;
+            font-weight: 600;
+            color: white;
+        }
+        input {
+            height: 95px;
+            border-radius: 10px;
+            margin-right: 5px;
+            font-size: 60px;
+            font-weight:400;
+        }
+        input#code {
+            width: 490px;
+            text-align: center;
+        }
+        input.btn {
+            width: 110px;
         }
     }
 }
