@@ -13,9 +13,6 @@
         justify-content: center;
         margin: 0 auto;
         max-width: 1280px;
-        @include mq(0,512px){
-            max-width: 340px !important;
-        }
         div.rules {
             display: flex;
             flex-direction: row;
