@@ -4,12 +4,12 @@
     background-image: url('https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/bg-home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 2869px;
+    height: 2960px;
     @include mq(0,512px){
-        background: red;
         width: 100%;
         overflow: hidden;
-        height: 2500px;
+        height: 2020px;
+        background-image: url('https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/bg-home-mobile.jpg');
     }
     .wrapper{
         max-width: 1280px;
@@ -28,6 +28,10 @@
                 margin-bottom: 30px;
                 padding-top: 100px;
                 line-height: 55px;
+                width: 300px;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
             }
         }
         p{
@@ -41,10 +45,7 @@
             line-height: 
             27.24px;
             @include mq(0,512px){
-                font-size: 21px;
-                width: 100%;
-                line-height: 25px;
-                margin-bottom: 100px;
+                display: none;
             }
         }
         .flex-container{
@@ -54,7 +55,6 @@
             align-items: center;
             flex-wrap: wrap;
             @include mq(0,512px){
-                background: red;
                 margin-top: 60px;
 
             }
@@ -68,10 +68,10 @@
                 border-radius: 30px;
                 @include mq(0,512px){
                     border-radius: 20px;
-                    height: 250px;
-                    width: 250px;
-                    min-width: 250px;
-                    margin-bottom: 100px;
+                    height: 200px;
+                    width: 200px;
+                    min-width: 200px;
+                    margin-bottom: 80px;
                 }
                 img{
                     transform: rotate(-45deg);
@@ -80,9 +80,9 @@
                     bottom: -250px;
                     right:-30px;
                     @include mq(0,512px){
-                        height: 600px;
-                        bottom: -170px;
-                        right: -50px;
+                        height: 500px;
+                        bottom: -150px;
+                        right: -80px;
                     }
                 }
             }
@@ -95,7 +95,7 @@
                     line-height: 96px;
                     @include mq(0,512px){
                         font-size: 40px;
-                        margin-bottom: 30px;
+                        margin-bottom: 25px;
                         line-height: 0px;
                     }
                 }
@@ -104,17 +104,18 @@
                     font-size: 25px;
                     line-height: 30px;
                     @include mq(0,512px){
-                        font-size: 18px;
-                        margin-bottom: 80px;
+                        font-size: 14px;
+                        margin-bottom: 50px;
                         line-height: 20px;
-                        width: 300px;
+                        width: 250px;
+                        display: block;
                     }
                 }
             }
             &.frst{
                 margin-top: 200px;
                 @include mq(0,512px){
-                    margin-top: 120px;
+                    margin-top: 90px;
                 }
             }
             &.rev{
@@ -134,7 +135,7 @@
                 font-size: 25px;
                 letter-spacing: 3px;
                 border-radius: 20px;
-                margin-top: 10px;
+                margin-top: 40px;
             }
         }
     }
