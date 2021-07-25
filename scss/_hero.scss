@@ -8,8 +8,9 @@
     height: 100vh;
     @include mq(0, 512px) {
         width: 100%;
-        background-color:#04022F;
+        background-color:$darkest-blue;
         background-image:none;
+        overflow: hidden;
     }
     .wrapper {
         display: flex;
@@ -19,7 +20,7 @@
         margin: 0 auto;
         max-width: 1280px;
         @include mq(0, 512px) {
-            height:100%;
+            max-width: 340px !important;
         }
         div.rules {
             display: flex;
