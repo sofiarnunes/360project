@@ -216,7 +216,8 @@ header {
   @media (min-width: 0) and (max-width: 512px) {
     .gifts {
       width: 100%;
-      overflow: hidden; } }
+      overflow: hidden;
+      border-top: red 1px solid; } }
   @media (min-width: 0) and (max-width: 512px) {
     .gifts .wrapper {
       max-width: 340px !important; } }
