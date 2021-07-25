@@ -7,6 +7,7 @@
     @include mq(0,512px){
         width: 100%;
         overflow: hidden;
+        border-top: red 1px solid;
     }
     .wrapper{
         @include mq(0,512px){
