@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    var inputCode = $("#code").val();
     $("#submit").click(function (e) {
         var inputCode = $("#code").val();
         if (inputCode != "A1A1") {
