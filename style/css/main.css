@@ -95,9 +95,8 @@ header {
   height: 100vh; }
   @media (min-width: 0) and (max-width: 512px) {
     .hero {
+      background-image: url("https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/Imagem_Background_Mobile.png");
       width: 100%;
-      background-color: #04022F;
-      background-image: none;
       overflow: hidden; } }
   .hero .wrapper {
     display: flex;
