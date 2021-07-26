@@ -1,6 +1,6 @@
 footer{
-    height: 167px;
-    background-color: $medium-blue;
+    height: 100px;
+    background-color: $light-blue;
     color: $white;
     position: relative;
     bottom: 100px;
@@ -13,13 +13,33 @@ footer{
         @include mq(0,512px){
             max-width: 340px !important;
             justify-content: flex-start;
-
         }        
         div{
             ul{
-                margin-bottom: 35px;
                 li{
-                    margin-bottom: 10px;
+                    font-size: 13px;
+                    margin: 0 15px;
+                    text-transform: uppercase;
+                    color: $white;
+                    font-weight: 600;
+                    img{
+                        height: 100px;
+                    }
+                }
+            }
+        }
+        div{
+            vertical-align: middle;
+            i{
+                font-size: 35px;
+                margin: 0 15px;
+                color: $white;
+                &[class="fab fa-instagram"]{
+                    font-size: 30px;
+                    color: $light-blue;
+                    background-color: $white;
+                    padding: 3px 5px;
+                    border-radius: 100%;
                 }
             }
         }

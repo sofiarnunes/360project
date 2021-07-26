@@ -408,8 +408,8 @@ header {
           margin-top: 40px; } }
 
 footer {
-  height: 167px;
-  background-color: #222C6E;
+  height: 100px;
+  background-color: #4AACE4;
   color: #ffffff;
   position: relative;
   bottom: 100px;
@@ -422,7 +422,23 @@ footer {
     footer .flex-container {
       max-width: 340px !important;
       justify-content: flex-start; } }
-  footer .flex-container div ul {
-    margin-bottom: 35px; }
-    footer .flex-container div ul li {
-      margin-bottom: 10px; }
+  footer .flex-container div ul li {
+    font-size: 13px;
+    margin: 0 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600; }
+    footer .flex-container div ul li img {
+      height: 100px; }
+  footer .flex-container div {
+    vertical-align: middle; }
+    footer .flex-container div i {
+      font-size: 35px;
+      margin: 0 15px;
+      color: #ffffff; }
+      footer .flex-container div i[class="fab fa-instagram"] {
+        font-size: 30px;
+        color: #4AACE4;
+        background-color: #ffffff;
+        padding: 3px 5px;
+        border-radius: 100%; }
