@@ -19,3 +19,10 @@ section {
     align-items: center;
     flex-wrap: wrap;
 }
+
+.btn{
+    padding: 10px 20px;
+    background-color: $crava-light;
+    border-radius: 10px;
+    color: $white;
+}

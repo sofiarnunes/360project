@@ -72,6 +72,12 @@ section {
   align-items: center;
   flex-wrap: wrap; }
 
+.btn {
+  padding: 10px 20px;
+  background-color: #FF538F;
+  border-radius: 10px;
+  color: #ffffff; }
+
 .hero {
   background-image: linear-gradient(rgba(29, 28, 81, 0.7), rgba(29, 28, 81, 0.7)), url("https://github.com/sofiarnunes/Halls-360Project/blob/main/img/Background_update.png?raw=true");
   background-repeat: no-repeat;
@@ -200,16 +206,28 @@ section {
   width: 100%;
   height: 100vh;
   text-align: center; }
+  @media (min-width: 0) and (max-width: 512px) {
+    .announcement {
+      background-image: url("https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/Imagem_Background_Mobile.png");
+      width: 100%;
+      overflow: hidden; } }
   .announcement .wrapper {
     position: relative;
     top: 50%;
     margin: 0 auto;
     max-width: 100%; }
+    @media (min-width: 0) and (max-width: 512px) {
+      .announcement .wrapper {
+        top: 43%; } }
     .announcement .wrapper .win h3 {
       font-size: 50px;
       font-weight: 700;
       color: #ffffff;
       margin-bottom: 5px; }
+      @media (min-width: 0) and (max-width: 512px) {
+        .announcement .wrapper .win h3 {
+          font-size: 40px;
+          margin-bottom: 10px; } }
     .announcement .wrapper .win h4 {
       font-size: 39px;
       font-weight: 400;
@@ -218,30 +236,57 @@ section {
     .announcement .wrapper .cravas img {
       width: 300px;
       margin-top: 30px; }
+      @media (min-width: 0) and (max-width: 512px) {
+        .announcement .wrapper .cravas img {
+          width: 340px;
+          margin-top: 20%; } }
     .announcement .wrapper .arrow i {
       color: #ffffff;
       font-size: 30px; }
+      @media (min-width: 0) and (max-width: 512px) {
+        .announcement .wrapper .arrow i {
+          font-size: 40px; } }
+    @media (min-width: 0) and (max-width: 512px) {
+      .announcement .wrapper .arrow {
+        position: relative;
+        top: 7%; } }
 
 .prize {
   background: linear-gradient(180deg, #151448 25%, #3b8ccc 99%);
   height: 100vh; }
   @media (min-width: 0) and (max-width: 512px) {
     .prize {
-      background: linear-gradient(180deg, #000336 25%, #3b8ccc 99%); } }
+      background: linear-gradient(180deg, #010f45 25%, #3b8ccc 99%);
+      width: 100%;
+      overflow: hidden; } }
   .prize .wrapper {
     max-width: 1100px;
     height: 100vh; }
     @media (min-width: 0) and (max-width: 512px) {
       .prize .wrapper {
-        max-width: 100%;
-        overflow: hidden;
+        max-width: 340px;
         height: 1000px; } }
+    .prize .wrapper .text-mobile {
+      text-align: center;
+      display: none; }
+      @media (min-width: 0) and (max-width: 512px) {
+        .prize .wrapper .text-mobile {
+          display: block;
+          margin-top: 50px; } }
+      @media (min-width: 0) and (max-width: 512px) {
+        .prize .wrapper .text-mobile p {
+          font-size: 14px;
+          font-weight: 400;
+          color: #ffffff;
+          text-align: center; } }
     .prize .wrapper .flex-container {
       padding-top: 70px;
       width: 100%; }
       @media (min-width: 0) and (max-width: 512px) {
         .prize .wrapper .flex-container {
-          flex-direction: column; } }
+          flex-direction: column;
+          margin-top: 60px;
+          padding-top: 0; } }
       .prize .wrapper .flex-container .prizes {
         width: 420px;
         height: 420px;
@@ -249,14 +294,14 @@ section {
         bottom: 15px; }
         @media (min-width: 0) and (max-width: 512px) {
           .prize .wrapper .flex-container .prizes {
-            width: 300px;
-            height: 300px; } }
+            width: 340px;
+            height: 340px; } }
         .prize .wrapper .flex-container .prizes img {
           width: 170px;
           position: absolute; }
           @media (min-width: 0) and (max-width: 512px) {
             .prize .wrapper .flex-container .prizes img {
-              width: 120px; } }
+              width: 140px; } }
           .prize .wrapper .flex-container .prizes img.top {
             top: 0;
             left: 50%;
@@ -280,7 +325,9 @@ section {
         @media (min-width: 0) and (max-width: 512px) {
           .prize .wrapper .flex-container div h3 {
             font-size: 40px;
-            font-weight: 400; } }
+            font-weight: 400;
+            margin-top: 40px;
+            margin-bottom: 40px; } }
       .prize .wrapper .flex-container .professional img {
         width: 430px; }
         @media (min-width: 0) and (max-width: 512px) {
@@ -289,33 +336,49 @@ section {
     .prize .wrapper .flex-container {
       width: 100%;
       text-align: center;
-      justify-content: space-between; }
+      justify-content: center; }
+      @media (min-width: 0) and (max-width: 512px) {
+        .prize .wrapper .flex-container {
+          flex-direction: column; } }
       .prize .wrapper .flex-container .text-1, .prize .wrapper .flex-container .text-2 {
         width: 420px;
         margin-top: -70px; }
+        @media (min-width: 0) and (max-width: 512px) {
+          .prize .wrapper .flex-container .text-1, .prize .wrapper .flex-container .text-2 {
+            max-width: 300px; } }
         .prize .wrapper .flex-container .text-1 p, .prize .wrapper .flex-container .text-2 p {
           font-size: 20px;
           font-weight: 700;
           color: #ffffff; }
+          @media (min-width: 0) and (max-width: 512px) {
+            .prize .wrapper .flex-container .text-1 p, .prize .wrapper .flex-container .text-2 p {
+              font-size: 14px;
+              font-weight: 400; } }
       @media (min-width: 0) and (max-width: 512px) {
         .prize .wrapper .flex-container .text-1 {
-          position: absolute;
-          bottom: -50px; } }
-      @media (min-width: 0) and (max-width: 512px) {
-        .prize .wrapper .flex-container .text-1 p {
-          font-size: 14px;
-          font-weight: 400; } }
+          display: none; } }
       .prize .wrapper .flex-container .text-2 {
         margin-top: -50px; }
         .prize .wrapper .flex-container .text-2 span {
           font-weight: 600; }
         @media (min-width: 0) and (max-width: 512px) {
-          .prize .wrapper .flex-container .text-2 {
-            max-width: 290px; } }
-        @media (min-width: 0) and (max-width: 512px) {
           .prize .wrapper .flex-container .text-2 p {
             font-size: 14px;
             font-weight: 400; } }
+    .prize .wrapper .btn {
+      display: none;
+      text-align: center;
+      width: 200px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
+      @media (min-width: 0) and (max-width: 512px) {
+        .prize .wrapper .btn {
+          display: block;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 17px;
+          margin-top: 30px; } }
 
 .about {
   width: 100%;
@@ -327,8 +390,9 @@ section {
     .about {
       width: 100%;
       overflow: hidden;
-      height: 2020px;
-      background-image: url("https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/bg-home-mobile.jpg"); } }
+      height: 1920px;
+      background-image: url("https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/bg-home-mobile.jpg");
+      text-align: center; } }
   .about .wrapper {
     max-width: 1280px; }
     @media (min-width: 0) and (max-width: 512px) {
@@ -346,7 +410,7 @@ section {
         .about .wrapper h2 {
           font-size: 45px;
           margin-bottom: 30px;
-          padding-top: 100px;
+          padding-top: 10px;
           line-height: 55px;
           width: 300px;
           position: relative;
@@ -389,7 +453,8 @@ section {
             height: 200px;
             width: 200px;
             min-width: 200px;
-            margin-bottom: 80px; } }
+            margin-bottom: 80px;
+            margin-left: 0px; } }
         .about .wrapper .flex-container .shape img {
           transform: rotate(-45deg);
           height: 950px;
@@ -405,6 +470,9 @@ section {
         max-width: 430px; }
         .about .wrapper .flex-container .info.right {
           text-align: right; }
+          @media (min-width: 0) and (max-width: 512px) {
+            .about .wrapper .flex-container .info.right {
+              text-align: center; } }
         .about .wrapper .flex-container .info h3 {
           font-size: 60px;
           margin-bottom: 18px;
@@ -436,26 +504,23 @@ section {
         flex-direction: row-reverse;
         margin-right: 70px;
         margin-left: 0; }
-    .about .wrapper .btn-default {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      text-align: center;
-      padding: 25px 135px;
-      display: inline-block;
-      font-size: 30px;
-      letter-spacing: 3px;
-      color: #1D1C51;
-      background-color: #ffffff;
-      border-radius: 30px;
-      margin-top: 190px; }
-      @media (min-width: 0) and (max-width: 512px) {
-        .about .wrapper .btn-default {
-          padding: 20px 50px;
-          font-size: 25px;
-          letter-spacing: 3px;
-          border-radius: 20px;
-          margin-top: 40px; } }
+        @media (min-width: 0) and (max-width: 512px) {
+          .about .wrapper .flex-container.rev {
+            margin-right: 0px; } }
+    @media (min-width: 0) and (max-width: 512px) {
+      .about .wrapper .mundo p {
+        font-size: 20px;
+        color: #ffffff;
+        width: 200px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 40px;
+        line-height: 25px; } }
+    @media (min-width: 0) and (max-width: 512px) {
+      .about .wrapper .mundo .btn {
+        padding: 15px 50px;
+        border-radius: 15px; } }
 
 footer {
   height: 105px;
@@ -468,12 +533,24 @@ footer {
     footer {
       height: 200px;
       width: 100%; } }
+  @media (min-width: 0) and (max-width: 512px) {
+    footer .logo-mobile img {
+      height: 100px;
+      position: relative; } }
   footer .flex-container {
     margin-top: 2px; }
     @media (min-width: 0) and (max-width: 512px) {
       footer .flex-container {
         max-width: 340px !important;
-        justify-content: flex-start; } }
+        align-items: flex-start;
+        flex-direction: column; } }
+    @media (min-width: 0) and (max-width: 512px) {
+      footer .flex-container div ul {
+        position: relative;
+        left: 100%; } }
+    @media (min-width: 0) and (max-width: 512px) {
+      footer .flex-container div ul .logo {
+        display: none; } }
     footer .flex-container div ul li {
       font-size: 13px;
       margin: 0 15px;
@@ -482,13 +559,21 @@ footer {
       font-weight: 600; }
       footer .flex-container div ul li img {
         height: 100px; }
-    footer .flex-container div {
+      @media (min-width: 0) and (max-width: 512px) {
+        footer .flex-container div ul li {
+          margin: 10px 0; } }
+    footer .flex-container .icons {
       vertical-align: middle; }
-      footer .flex-container div i {
+      @media (min-width: 0) and (max-width: 512px) {
+        footer .flex-container .icons {
+          position: relative;
+          right: 50%;
+          top: 25%; } }
+      footer .flex-container .icons i {
         font-size: 35px;
         margin: 0 15px;
         color: #ffffff; }
-        footer .flex-container div i[class="fab fa-instagram"] {
+        footer .flex-container .icons i[class="fab fa-instagram"] {
           font-size: 30px;
           color: #4AACE4;
           background-color: #ffffff;
