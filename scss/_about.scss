@@ -7,8 +7,9 @@
     @include mq(0,512px){
         width: 100%;
         overflow: hidden;
-        height: 2020px;
+        height: 1920px;
         background-image: url('https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/bg-home-mobile.jpg');
+        text-align: center;
     }
     .wrapper{
         max-width: 1280px;
@@ -26,7 +27,7 @@
             @include mq(0,512px){
                 font-size: 45px;
                 margin-bottom: 30px;
-                padding-top: 100px;
+                padding-top: 10px;
                 line-height: 55px;
                 width: 300px;
                 position: relative;
@@ -74,6 +75,7 @@
                     width: 200px;
                     min-width: 200px;
                     margin-bottom: 80px;
+                    margin-left: 0px;
                 }
                 img{
                     transform: rotate(-45deg);
@@ -92,6 +94,9 @@
                 max-width: 430px;
                 &.right{
                     text-align: right;
+                    @include mq(0,512px){
+                        text-align: center;
+                    }
                 }
                 h3{
                     font-size: 60px;
@@ -128,26 +133,30 @@
                 flex-direction: row-reverse;
                 margin-right: 70px;
                 margin-left: 0;
+                @include mq(0,512px){
+                    margin-right: 0px;
+
+                }
             }
         }
-        .btn-default{
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-            padding: 25px 135px;
-            display: inline-block;
-            font-size: 30px;
-            letter-spacing: 3px;
-            color: $dark-blue;
-            background-color: $white;border-radius: 30px;
-            margin-top: 190px;
-            @include mq(0,512px){
-                padding: 20px 50px;
-                font-size: 25px;
-                letter-spacing: 3px;
-                border-radius: 20px;
-                margin-top: 40px;
+        .mundo{
+            p{
+                @include mq(0,512px){
+                    font-size: 20px;
+                    color: $white;
+                    width: 200px;
+                    position: relative;         
+                    left: 50%;
+                    transform: translateX(-50%);
+                    margin-bottom: 40px;
+                    line-height:25px;
+                }
+            }
+            .btn{
+                @include mq(0,512px){
+                    padding: 15px 50px;
+                    border-radius: 15px;
+                }
             }
         }
     }

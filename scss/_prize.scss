@@ -2,22 +2,42 @@
     background: linear-gradient(180deg, rgba(21,20,72,1) 25%, rgba(59,140,204,1) 99%);
     height: 100vh;
     @include mq(0,512px){
-        background: linear-gradient(180deg, rgba(0,3,54,1) 25%, rgba(59,140,204,1) 99%);
+        background: linear-gradient(180deg, rgba(1,15,69,1) 25%, rgba(59,140,204,1) 99%);
+        width: 100%;
+        overflow: hidden;
     }
     display:none;
     .wrapper{
         max-width: 1100px;
         height: 100vh;
         @include mq(0,512px){
-            max-width: 100%;
-            overflow: hidden;
+            max-width: 340px;
             height: 1000px;
+        }
+        .text-mobile{
+            text-align: center;
+            display: none;
+            @include mq(0,512px){
+                display: block;
+                margin-top: 50px;
+            }
+            p{
+                @include mq(0,512px){
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: $white;
+                    text-align: center;
+                }
+            }
         }
         .flex-container{
             padding-top: 70px;
             width: 100%;
             @include mq(0,512px){
                 flex-direction: column;
+                margin-top: 60px;
+                padding-top: 0;
+
             }
             .prizes{
                 width: 420px;
@@ -25,14 +45,14 @@
                 position: relative;
                 bottom: 15px;
                 @include mq(0,512px){
-                    width: 300px;
-                    height: 300px;
+                    width: 340px;
+                    height: 340px;
                 }
                 img{
                     width: 170px;
                     position: absolute;
                     @include mq(0,512px){
-                        width: 120px;
+                        width: 140px;
                     }
                     &.top{
                         top: 0;
@@ -64,6 +84,8 @@
                     @include mq(0,512px){
                         font-size: 40px;
                         font-weight: 400;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
                     }
                 }
             }
@@ -79,26 +101,29 @@
         .flex-container{
             width: 100%;
             text-align: center;
-            justify-content: space-between;
+            justify-content: center;
+            @include mq(0,512px){
+                flex-direction: column;
+            }
             .text-1,.text-2{
                 width: 420px;
                 margin-top: -70px;
+                @include mq(0,512px){
+                    max-width: 300px;
+                }
                 p{
                     font-size: 20px;
                     font-weight: 700;
                     color: $white;
-                }
-            }
-            .text-1{
-                @include mq(0,512px){
-                    position: absolute;
-                    bottom: -50px;
-                }
-                p{
                     @include mq(0,512px){
                         font-size: 14px;
                         font-weight: 400;
                     }
+                }
+            }
+            .text-1{
+                @include mq(0,512px){
+                    display: none;
                 }
             }
             .text-2{
@@ -106,15 +131,27 @@
                 span{
                     font-weight: 600;
                 }
-                @include mq(0,512px){
-                    max-width: 290px;
-                }
                 p{
                     @include mq(0,512px){
                         font-size: 14px;
                         font-weight: 400;
                     }
                 }
+            }
+        }
+        .btn{
+            display: none;
+            text-align: center;
+            width: 200px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            @include mq(0,512px){
+                display: block;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 17px;
+                margin-top: 30px;
             }
         }
     }

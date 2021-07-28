@@ -9,14 +9,32 @@ footer{
         height: 200px;
         width: 100%;
     }
+    .logo-mobile{
+        img{
+            @include mq(0,512px){
+                height: 100px;
+                position: relative;
+            } 
+        }
+    }
     .flex-container{
         margin-top: 2px;
         @include mq(0,512px){
             max-width: 340px !important;
-            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
         }        
         div{
             ul{
+                @include mq(0,512px){
+                    position: relative;
+                    left: 100%;
+                } 
+                .logo{
+                    @include mq(0,512px){
+                        display: none;
+                    }  
+                }
                 li{
                     font-size: 13px;
                     margin: 0 15px;
@@ -26,11 +44,19 @@ footer{
                     img{
                         height: 100px;
                     }
+                    @include mq(0,512px){
+                        margin: 10px 0;
+                    } 
                 }
             }
         }
-        div{
+        .icons{
             vertical-align: middle;
+            @include mq(0,512px){
+                position: relative;
+                right: 50%;
+                top: 25%;
+            } 
             i{
                 font-size: 35px;
                 margin: 0 15px;

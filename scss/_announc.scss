@@ -8,17 +8,29 @@
     height: 100vh;
     text-align: center;
     display:none;
+    @include mq(0,512px){
+        background-image: url("https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/Imagem_Background_Mobile.png");
+        width: 100%;
+        overflow: hidden;
+    }
     .wrapper{
         position: relative;
         top: 50%;
         margin: 0 auto;
         max-width: 100%;
+        @include mq(0,512px){
+            top: 43%;
+        }
         .win{
             h3{
                 font-size: 50px;
                 font-weight: 700;
                 color: $white;
                 margin-bottom: 5px;
+                @include mq(0,512px){
+                    font-size: 40px;
+                    margin-bottom: 10px;
+                }
             }
             h4{
                 font-size: 39px;
@@ -31,13 +43,23 @@
             img{
                 width: 300px;
                 margin-top: 30px;
+                @include mq(0,512px){
+                    width: 340px;
+                    margin-top: 20%;
+                }
             }
         }
         .arrow{
             i{
                 color: $white;
                 font-size: 30px;
-                // margin-top: 50px;
+                @include mq(0,512px){
+                    font-size: 40px;
+                }
+            }
+            @include mq(0,512px){
+                position: relative;
+                top: 7%;
             }
         }
     }
