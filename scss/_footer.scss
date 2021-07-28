@@ -1,5 +1,5 @@
 footer{
-    height: 100px;
+    height: 105px;
     background-color: $light-blue;
     color: $white;
     position: relative;
@@ -10,6 +10,7 @@ footer{
         width: 100%;
     }
     .flex-container{
+        margin-top: 2px;
         @include mq(0,512px){
             max-width: 340px !important;
             justify-content: flex-start;

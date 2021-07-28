@@ -2,10 +2,12 @@ $(document).ready(function () {
     $("#submit").click(function (e) {
         var inputCode = $("#code").val();
         if (inputCode != "A1A1") {
-            $(".gifts").hide();
+            $(".prize").hide();
         } else {
-            $(".gifts").show();
-        }
+            $(".prize").show();
+            $('html, body').animate({
+                scrollTop: $(".prize").offset().top}, 1000);
+        };
         e.preventDefault();
     });
 });
