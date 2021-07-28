@@ -1,20 +1,38 @@
 .prize{
     background: linear-gradient(180deg, rgba(21,20,72,1) 25%, rgba(59,140,204,1) 99%);
     height: 100vh;
+    @include mq(0,512px){
+        background: linear-gradient(180deg, rgba(0,3,54,1) 25%, rgba(59,140,204,1) 99%);
+    }
     .wrapper{
         max-width: 1100px;
         height: 100vh;
+        @include mq(0,512px){
+            max-width: 100%;
+            overflow: hidden;
+            height: 1000px;
+        }
         .flex-container{
             padding-top: 70px;
             width: 100%;
+            @include mq(0,512px){
+                flex-direction: column;
+            }
             .prizes{
                 width: 420px;
                 height: 420px;
                 position: relative;
                 bottom: 15px;
+                @include mq(0,512px){
+                    width: 300px;
+                    height: 300px;
+                }
                 img{
                     width: 170px;
                     position: absolute;
+                    @include mq(0,512px){
+                        width: 120px;
+                    }
                     &.top{
                         top: 0;
                         left: 50%;
@@ -42,11 +60,18 @@
                     font-size: 80px;
                     font-weight: 700;
                     color: $white;
+                    @include mq(0,512px){
+                        font-size: 40px;
+                        font-weight: 400;
+                    }
                 }
             }
             .professional{
                 img{
                     width: 430px;
+                    @include mq(0,512px){
+                        display: none;
+                    }
                 }
             }
         }
@@ -63,8 +88,32 @@
                     color: $white;
                 }
             }
+            .text-1{
+                @include mq(0,512px){
+                    position: absolute;
+                    bottom: -50px;
+                }
+                p{
+                    @include mq(0,512px){
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+            }
             .text-2{
                 margin-top: -50px;
+                span{
+                    font-weight: 600;
+                }
+                @include mq(0,512px){
+                    max-width: 290px;
+                }
+                p{
+                    @include mq(0,512px){
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
             }
         }
     }
