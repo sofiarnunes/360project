@@ -41,7 +41,8 @@
     <link rel="stylesheet" href="style/css/main.css">
     <link rel="stylesheet" type="text/css" href="font/AzoSans/stylesheet.css">
     <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/new.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/arrow_click.js"></script>
 </head>
 
 <body>
@@ -93,19 +94,20 @@
     <!-- END HERO -->
 
     <!-- ANNOUNCEMENT -->
-    <section class="announcement">
+    <section class="announcement" id="announcement">
         <div class="wrapper">
             <div class="win">
                 <h3>Yeah!!!</h3>
                 <h4>Ganhaste</h4>
             </div>
             <div class="cravas">
-                <img src="https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/20_Group.png" alt="">
+                <img src="https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/20_Group.png" alt=""
+                    id="win-20">
             </div>
             <div class="arrow">
-                <a href="#prize"><i class="fas fa-chevron-down"></i></a>
+                <a href="#btn-prize" id="arrow"><i class="fas fa-chevron-down"></i></a>
             </div>
-    </div>
+        </div>
     </section>
     <!-- END ANNOUNCEMENT -->
 
@@ -119,7 +121,9 @@
                     <img class="bottom" src="/img/caneca-web.png" alt="">
                     <img class="left" src="/img/caderno-web.png" alt="">
                 </div>
-                <div><h3>ou</h3></div>
+                <div>
+                    <h3>ou</h3>
+                </div>
                 <div class="professional">
                     <img src="/img/coroa.png" alt="">
                 </div>
@@ -129,7 +133,7 @@
                     <p>Escolhe já o teu prémio...</p>
                 </div>
                 <div class="text-2">
-                    <p>...torna-te um <span>Cravas Profissional</span> e 
+                    <p>...torna-te um <span>Cravas Profissional</span> e
                         acumula os teus cravas para prémios de sonho</p>
                 </div>
             </div>
@@ -142,7 +146,8 @@
     <section class="about">
         <div class="wrapper">
             <h2>Entra no Mundo Crava</h2>
-            <p class="sub">Phasellus sit amet fringilla risus. Nam elementum auctor lectus sit amet imperdiet.Aenean aliquet
+            <p class="sub">Phasellus sit amet fringilla risus. Nam elementum auctor lectus sit amet imperdiet.Aenean
+                aliquet
                 efficitur tellus, sit amet efficitur nisi consectetur ut. Sed non nunc id metus interdum rutrum non ut
                 dui.</p>
             <div class="flex-container frst">
@@ -217,12 +222,24 @@
         <div class="flex-container wrapper">
             <div>
                 <ul class="flex-container">
-                    <a href="#"><li><img src="/img/HALLS_logo.png" alt=""></li></a>
-                    <a href="#"><li>Política de cookies</li></a>
-                    <a href="#"><li>Política de privacidade</li></a>
-                    <a href="#"><li>Termos e condições</li></a>
-                    <a href="#"><li>Contacto</li></a>
-                    <a href="#"><li>Mapa do site</li></a>
+                    <a href="#">
+                        <li><img src="/img/HALLS_logo.png" alt=""></li>
+                    </a>
+                    <a href="#">
+                        <li>Política de cookies</li>
+                    </a>
+                    <a href="#">
+                        <li>Política de privacidade</li>
+                    </a>
+                    <a href="#">
+                        <li>Termos e condições</li>
+                    </a>
+                    <a href="#">
+                        <li>Contacto</li>
+                    </a>
+                    <a href="#">
+                        <li>Mapa do site</li>
+                    </a>
                 </ul>
             </div>
             <div>
@@ -236,4 +253,3 @@
 </body>
 
 </html>
-

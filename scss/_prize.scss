@@ -4,6 +4,7 @@
     @include mq(0,512px){
         background: linear-gradient(180deg, rgba(0,3,54,1) 25%, rgba(59,140,204,1) 99%);
     }
+    display:none;
     .wrapper{
         max-width: 1100px;
         height: 100vh;
