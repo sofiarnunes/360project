@@ -54,6 +54,10 @@
             i{
                 color: $white;
                 font-size: 30px;
+                transition: all 0.2s;
+                &:hover{
+                    color: $light-blue;
+                }
                 @include mq(0,512px){
                     font-size: 40px;
                 }

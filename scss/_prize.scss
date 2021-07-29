@@ -56,6 +56,10 @@
                 img{
                     width: 170px;
                     position: absolute;
+                    transition: all 0.2s;
+                    &:hover{
+                        width: 185px;
+                    }
                     @include mq(0,512px){
                         width: 140px;
                     }
@@ -86,16 +90,22 @@
                     font-size: 80px;
                     font-weight: 700;
                     color: $white;
+                    padding: 0 50px;
                     @include mq(0,512px){
                         font-size: 40px;
                         font-weight: 400;
                         height: 100%;
+                        padding: 0;
                     }
                 }
             }
             .professional{
                 img{
                     width: 430px;
+                    transition: all 0.2s;
+                    &:hover{
+                        opacity: 0.8;
+                    }
                     @include mq(0,512px){
                         display: none;
                     }
@@ -103,14 +113,14 @@
             }
         }
         .flex-container{
-            width: 100%;
+            max-width: 100%;
             text-align: center;
             justify-content: center;
             @include mq(0,512px){
                 flex-direction: column;
             }
             .text-1,.text-2{
-                width: 420px;
+                max-width: 420px;
                 margin-top: -70px;
                 @include mq(0,512px){
                     max-width: 300px;
@@ -126,12 +136,15 @@
                 }
             }
             .text-1{
+                margin-right: 180px;
                 @include mq(0,512px){
                     display: none;
+                    margin-right: 0;
                 }
             }
             .text-2{
                 margin-top: -50px;
+                margin-left: 70px;
                 span{
                     font-weight: 600;
                 }
@@ -139,6 +152,7 @@
                     @include mq(0,512px){
                         font-size: 14px;
                         font-weight: 400;
+                        margin-left: 0;
                     }
                 }
             }
