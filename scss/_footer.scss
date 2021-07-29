@@ -11,6 +11,7 @@ footer{
     }
     .logo-mobile{
         img{
+            display: none;
             @include mq(0,512px){
                 height: 100px;
                 position: absolute;
