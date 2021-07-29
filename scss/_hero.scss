@@ -122,8 +122,12 @@
         }
         input.btn {
             color: white;
-            background: #ab2a4e;
+            background-color: $crava-light;
             font-size: 16px;
+            cursor: pointer;
+            &:hover{
+                background-color: $crava;
+            }
             @include mq(0, 512px) {
                 font-size: 14px;
                 margin-bottom:5px;

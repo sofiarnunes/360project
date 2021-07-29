@@ -191,8 +191,11 @@ section {
           font-size: 14px; } }
     .hero form input.btn {
       color: white;
-      background: #ab2a4e;
-      font-size: 16px; }
+      background-color: #FF538F;
+      font-size: 16px;
+      cursor: pointer; }
+      .hero form input.btn:hover {
+        background-color: #FF1B6A; }
       @media (min-width: 0) and (max-width: 512px) {
         .hero form input.btn {
           font-size: 14px;
