@@ -13,7 +13,10 @@ footer{
         img{
             @include mq(0,512px){
                 height: 100px;
-                position: relative;
+                position: absolute;
+                top: 10%;
+                right: 50%;
+                transform: translateX(-50%);
             } 
         }
     }
@@ -53,9 +56,9 @@ footer{
         .icons{
             vertical-align: middle;
             @include mq(0,512px){
-                position: relative;
-                right: 50%;
-                top: 25%;
+                position: absolute;
+                right: 57%;
+                top: 70%;
             } 
             i{
                 font-size: 35px;

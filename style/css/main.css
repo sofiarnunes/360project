@@ -539,7 +539,10 @@ footer {
   @media (min-width: 0) and (max-width: 512px) {
     footer .logo-mobile img {
       height: 100px;
-      position: relative; } }
+      position: absolute;
+      top: 10%;
+      right: 50%;
+      transform: translateX(-50%); } }
   footer .flex-container {
     margin-top: 2px; }
     @media (min-width: 0) and (max-width: 512px) {
@@ -569,9 +572,9 @@ footer {
       vertical-align: middle; }
       @media (min-width: 0) and (max-width: 512px) {
         footer .flex-container .icons {
-          position: relative;
-          right: 50%;
-          top: 25%; } }
+          position: absolute;
+          right: 57%;
+          top: 70%; } }
       footer .flex-container .icons i {
         font-size: 35px;
         margin: 0 15px;
