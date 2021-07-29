@@ -32,8 +32,8 @@ section {
         background-color: $crava;
     }
     @include mq(0,512px){
-        font-size: 14px;
-        padding: 10px 20px;
+        font-size: 18px;
+        padding: 20px 30px;
         border-radius: 10px;
     }
 }

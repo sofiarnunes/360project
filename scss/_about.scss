@@ -7,7 +7,7 @@
     @include mq(0,512px){
         width: 100%;
         overflow: hidden;
-        height: 1920px;
+        height: 1900px;
         background-image: url('https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/bg-home-mobile.jpg');
         text-align: center;
     }
@@ -150,7 +150,7 @@
                 margin-top: 160px;
                 @include mq(0,512px){
                     font-size: 20px;
-                    width: 200px;
+                    width: 250px;
                     position: relative;         
                     left: 50%;
                     transform: translateX(-50%);
@@ -167,7 +167,7 @@
                     padding: 15px 50px;
                     border-radius: 15px;
                     left: 0;
-                    top: -10px;
+                    top: 0px;
                 }
             }
         }

@@ -84,8 +84,8 @@ section {
     background-color: #FF1B6A; }
   @media (min-width: 0) and (max-width: 512px) {
     .btn {
-      font-size: 14px;
-      padding: 10px 20px;
+      font-size: 18px;
+      padding: 20px 30px;
       border-radius: 10px; } }
 
 .hero {
@@ -436,7 +436,7 @@ section {
     .about {
       width: 100%;
       overflow: hidden;
-      height: 1920px;
+      height: 1900px;
       background-image: url("https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/bg-home-mobile.jpg");
       text-align: center; } }
   .about .wrapper {
@@ -565,7 +565,7 @@ section {
         @media (min-width: 0) and (max-width: 512px) {
           .about .wrapper .mundo p {
             font-size: 20px;
-            width: 200px;
+            width: 250px;
             position: relative;
             left: 50%;
             transform: translateX(-50%);
@@ -581,7 +581,7 @@ section {
             padding: 15px 50px;
             border-radius: 15px;
             left: 0;
-            top: -10px; } }
+            top: 0px; } }
 
 footer {
   height: 105px;
