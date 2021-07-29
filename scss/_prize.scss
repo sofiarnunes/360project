@@ -1,12 +1,12 @@
 .prize{
     background: linear-gradient(180deg, rgba(21,20,72,1) 25%, rgba(59,140,204,1) 99%);
-    height: 100vh;
+    height: 100%;
     display:none;
     @include mq(0,512px){
         background: linear-gradient(180deg, rgba(1,15,69,1) 25%, rgba(59,140,204,1) 99%);
         width: 100%;
         overflow: hidden;
-        height: 100vh;
+        height: 100%;
     }
     display:none;
     .wrapper{
