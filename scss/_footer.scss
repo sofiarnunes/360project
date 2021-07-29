@@ -13,6 +13,7 @@ footer{
         img{
             display: none;
             @include mq(0,512px){
+                display: block;
                 height: 100px;
                 position: absolute;
                 top: 10%;

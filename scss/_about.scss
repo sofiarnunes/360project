@@ -156,16 +156,18 @@
                     transform: translateX(-50%);
                     margin-bottom: 40px;
                     line-height:25px;
+                    margin-top: 20px;
                 }
             }
             .btn{
                 position: relative;         
                 left: 60px;
                 top: 40px;
-                // transform: translsateX(-50%);
                 @include mq(0,512px){
                     padding: 15px 50px;
                     border-radius: 15px;
+                    left: 0;
+                    top: -10px;
                 }
             }
         }
