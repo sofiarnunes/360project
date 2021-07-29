@@ -10,6 +10,9 @@
         height: 1900px;
         background-image: url('https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/bg-home-mobile.jpg');
         text-align: center;
+        position: relative;
+        top: -2px;
+        z-index: -1;
     }
     .wrapper{
         max-width: 1280px;

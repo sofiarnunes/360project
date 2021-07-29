@@ -6,7 +6,7 @@
         background: linear-gradient(180deg, rgba(1,15,69,1) 25%, rgba(59,140,204,1) 99%);
         width: 100%;
         overflow: hidden;
-        
+        height: 100%;
     }
     display:none;
     .wrapper{
@@ -178,6 +178,15 @@
             width: 100vw;
             height: 100vh;
             z-index: 3;
+            i{
+                font-size: 30px;
+                color: $white;
+                z-index: 4;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 10%;
+            }
             img{
                 width: 300px;
                 position: absolute;
