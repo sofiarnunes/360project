@@ -6,6 +6,7 @@
         background: linear-gradient(180deg, rgba(1,15,69,1) 25%, rgba(59,140,204,1) 99%);
         width: 100%;
         overflow: hidden;
+        
     }
     display:none;
     .wrapper{
@@ -13,14 +14,18 @@
         height: 100vh;
         @include mq(0,512px){
             max-width: 340px;
-            height: 1000px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
         }
         .text-mobile{
             text-align: center;
             display: none;
             @include mq(0,512px){
                 display: block;
-                margin-top: 50px;
             }
             p{
                 @include mq(0,512px){
@@ -36,7 +41,6 @@
             width: 100%;
             @include mq(0,512px){
                 flex-direction: column;
-                margin-top: 60px;
                 padding-top: 0;
 
             }
@@ -46,8 +50,8 @@
                 position: relative;
                 bottom: 15px;
                 @include mq(0,512px){
-                    width: 340px;
-                    height: 340px;
+                    width: 330px;
+                    height: 330px;
                 }
                 img{
                     width: 170px;
@@ -85,8 +89,7 @@
                     @include mq(0,512px){
                         font-size: 40px;
                         font-weight: 400;
-                        margin-top: 40px;
-                        margin-bottom: 40px;
+                        height: 100%;
                     }
                 }
             }
@@ -152,9 +155,8 @@
                 font-size: 14px;
                 font-weight: 700;
                 line-height: 17px;
-                margin-top: 30px;
+                left: 30%;
             }
         }
     }
 }
-// ajcvsh

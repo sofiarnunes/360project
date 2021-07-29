@@ -31,7 +31,7 @@ footer{
             ul{
                 @include mq(0,512px){
                     position: relative;
-                    left: 100%;
+                    left: 80%;
                 } 
                 .logo{
                     @include mq(0,512px){

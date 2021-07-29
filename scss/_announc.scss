@@ -12,6 +12,7 @@
         background-image: url("https://raw.githubusercontent.com/sofiarnunes/Halls-360Project/main/img/Imagem_Background_Mobile.png");
         width: 100%;
         overflow: hidden;
+        height: 100vh;
     }
     .wrapper{
         position: relative;
@@ -19,7 +20,7 @@
         margin: 0 auto;
         max-width: 100%;
         @include mq(0,512px){
-            top: 43%;
+            top: 40%;
         }
         .win{
             h3{
@@ -44,8 +45,8 @@
                 width: 300px;
                 margin-top: 30px;
                 @include mq(0,512px){
-                    width: 340px;
-                    margin-top: 20%;
+                    width: 300px;
+                    margin-top: 10%;
                 }
             }
         }
@@ -59,7 +60,7 @@
             }
             @include mq(0,512px){
                 position: relative;
-                top: 7%;
+                top: 10%;
             }
         }
     }
