@@ -79,10 +79,10 @@
                 }
                 img{
                     transform: rotate(-45deg);
-                    height: 950px;
+                    height: 800px;
                     position: absolute;
-                    bottom: -250px;
-                    right:-30px;
+                    bottom: -100px;
+                    right: -250px;
                     @include mq(0,512px){
                         height: 500px;
                         bottom: -150px;

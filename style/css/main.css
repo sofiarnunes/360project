@@ -492,10 +492,10 @@ section {
             margin-left: 0px; } }
         .about .wrapper .flex-container .shape img {
           transform: rotate(-45deg);
-          height: 950px;
+          height: 800px;
           position: absolute;
-          bottom: -250px;
-          right: -30px; }
+          bottom: -100px;
+          right: -250px; }
           @media (min-width: 0) and (max-width: 512px) {
             .about .wrapper .flex-container .shape img {
               height: 500px;
