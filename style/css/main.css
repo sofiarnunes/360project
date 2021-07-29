@@ -259,15 +259,13 @@ section {
       color: #ffffff;
       font-size: 30px;
       transition: all 0.2s; }
-      .announcement .wrapper .arrow i:hover {
-        color: #4AACE4; }
       @media (min-width: 0) and (max-width: 512px) {
         .announcement .wrapper .arrow i {
-          font-size: 55px; } }
+          font-size: 35px; } }
     @media (min-width: 0) and (max-width: 512px) {
       .announcement .wrapper .arrow {
         position: relative;
-        top: 10%; } }
+        top: 5%; } }
 
 .prize {
   background: linear-gradient(180deg, #151448 25%, #3b8ccc 99%);
