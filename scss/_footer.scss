@@ -8,6 +8,8 @@ footer{
     @include mq(0,512px){
         height: 200px;
         width: 100%;
+        overflow: hidden;
+
     }
     .logo-mobile{
         img{

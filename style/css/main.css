@@ -594,7 +594,8 @@ footer {
   @media (min-width: 0) and (max-width: 512px) {
     footer {
       height: 200px;
-      width: 100%; } }
+      width: 100%;
+      overflow: hidden; } }
   footer .logo-mobile img {
     display: none; }
     @media (min-width: 0) and (max-width: 512px) {
