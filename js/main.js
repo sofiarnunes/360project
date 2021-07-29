@@ -7,6 +7,7 @@ $(document).ready(function () {
             $('html, body').animate({
                 scrollTop: $(".announcement").offset().top
             }, 1000);
+            $("body").css("zoom", "reset");
             $("#prize").show();
         } else if (inputCode == "BBBB") {
             $(".hero").hide();
