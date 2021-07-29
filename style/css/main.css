@@ -414,6 +414,17 @@ section {
           font-weight: 700;
           line-height: 17px;
           left: 30%; } }
+    .prize .wrapper #login {
+      position: absolute;
+      display: none;
+      width: 100vw;
+      height: 100vh; }
+      .prize .wrapper #login img {
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 15%; }
 
 .about {
   width: 100%;
