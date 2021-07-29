@@ -79,14 +79,14 @@
                 }
                 img{
                     transform: rotate(-45deg);
-                    height: 800px;
+                    height: 700px;
                     position: absolute;
                     bottom: -100px;
-                    right: -250px;
+                    right: -180px;
                     @include mq(0,512px){
-                        height: 500px;
-                        bottom: -150px;
-                        right: -80px;
+                        height: 350px;
+                        bottom: -80px;
+                        right: -120px;
                     }
                 }
             }
