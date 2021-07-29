@@ -556,7 +556,7 @@ footer {
     @media (min-width: 0) and (max-width: 512px) {
       footer .flex-container div ul {
         position: relative;
-        left: 80%; } }
+        left: 95%; } }
     @media (min-width: 0) and (max-width: 512px) {
       footer .flex-container div ul .logo {
         display: none; } }
