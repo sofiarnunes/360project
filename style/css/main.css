@@ -205,7 +205,8 @@ section {
       background-color: #FF538F;
       font-size: 16px;
       cursor: pointer;
-      -webkit-appearance: none; }
+      -webkit-appearance: none;
+      vertical-align: middle; }
       .hero form input.btn:hover {
         background-color: #FF1B6A; }
       @media (min-width: 0) and (max-width: 512px) {
