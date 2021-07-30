@@ -324,7 +324,11 @@ section {
           position: absolute;
           transition: all 0.2s; }
           .prize .wrapper .flex-container .prizes img:hover {
+            cursor: pointer;
             width: 185px; }
+            @media (min-width: 0) and (max-width: 512px) {
+              .prize .wrapper .flex-container .prizes img:hover {
+                width: 150px; } }
           @media (min-width: 0) and (max-width: 512px) {
             .prize .wrapper .flex-container .prizes img {
               width: 140px; } }
@@ -359,7 +363,8 @@ section {
         width: 430px;
         transition: all 0.2s; }
         .prize .wrapper .flex-container .professional img:hover {
-          opacity: 0.8; }
+          opacity: 0.8;
+          cursor: pointer; }
         @media (min-width: 0) and (max-width: 512px) {
           .prize .wrapper .flex-container .professional img {
             display: none; } }
@@ -583,7 +588,8 @@ section {
       .about .wrapper .mundo .btn {
         position: relative;
         left: 60px;
-        top: 40px; }
+        top: 40px;
+        cursor: pointer; }
         @media (min-width: 0) and (max-width: 512px) {
           .about .wrapper .mundo .btn {
             padding: 15px 50px;
@@ -604,7 +610,8 @@ footer {
       width: 100%;
       overflow: hidden; } }
   footer .logo-mobile img {
-    display: none; }
+    display: none;
+    cursor: pointer; }
     @media (min-width: 0) and (max-width: 512px) {
       footer .logo-mobile img {
         display: block;
@@ -628,6 +635,7 @@ footer {
       footer .flex-container div ul .logo {
         display: none; } }
     footer .flex-container div ul li {
+      cursor: pointer;
       font-size: 13px;
       margin: 0 15px;
       text-transform: uppercase;
@@ -646,6 +654,7 @@ footer {
           right: 57%;
           top: 70%; } }
       footer .flex-container .icons i {
+        cursor: pointer;
         font-size: 35px;
         margin: 0 15px;
         color: #ffffff; }

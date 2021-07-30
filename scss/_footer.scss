@@ -13,6 +13,7 @@ footer{
     .logo-mobile{
         img{
             display: none;
+            cursor: pointer;
             @include mq(0,512px){
                 display: block;
                 height: 100px;
@@ -42,6 +43,7 @@ footer{
                     }  
                 }
                 li{
+                    cursor: pointer;
                     font-size: 13px;
                     margin: 0 15px;
                     text-transform: uppercase;
@@ -64,6 +66,7 @@ footer{
                 top: 70%;
             } 
             i{
+                cursor: pointer;
                 font-size: 35px;
                 margin: 0 15px;
                 color: $white;
