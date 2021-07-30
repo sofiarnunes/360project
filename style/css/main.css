@@ -258,6 +258,7 @@ section {
           width: 300px;
           margin-top: 10%; } }
     .announcement .wrapper .arrow i {
+      cursor: pointer;
       color: #ffffff;
       font-size: 30px;
       transition: all 0.2s; }
