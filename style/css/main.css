@@ -400,21 +400,16 @@ section {
             font-weight: 400;
             margin-right: 50px;
             margin-left: -50px; } }
-    .prize .wrapper .btn {
+    .prize .wrapper .btn-cravas .btn {
       display: none;
       text-align: center;
-      width: 200px;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%); }
+      width: 200px; }
       @media (min-width: 0) and (max-width: 512px) {
-        .prize .wrapper .btn {
+        .prize .wrapper .btn-cravas .btn {
           display: block;
           font-size: 14px;
           font-weight: 700;
-          line-height: 17px;
-          left: 30%;
-          bottom: 50px; } }
+          line-height: 17px; } }
     .prize .wrapper #login {
       position: absolute;
       display: none;
