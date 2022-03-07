@@ -6,5 +6,3 @@ The briefing for this project was given by the brand Halls PT. The aim was to tr
 For this project, a team of marketing, UI/UX design and front-end development joined together to work on their briefing. This prototype, presented to the brand, is meant to be accessed only with the mobile version through a specific QRCode.
 
 **Status: finished, PROTOTYPE ONLY**
-
-https://sofiarnunes.github.io/Halls-360Project/
